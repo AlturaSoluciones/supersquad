@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import CharacterList from './CharacterList';
 import HeroList from './HeroList';
 import '../styles/index.css';
@@ -8,8 +8,10 @@ class App extends Component {
     return (
         <div className="App">
           <h2>SuperSquad</h2>
-          <CharacterList/>
-          <HeroList/>
+          <div className="row">
+            <CharacterList/>
+            <HeroList/>
+          </div>
         </div>
     )
   }

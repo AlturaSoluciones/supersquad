@@ -6,7 +6,7 @@ import { addCharacterById} from "../actions";
 class CharacterList extends Component {
   render () {
     return (
-        <div>
+        <div className="col-md-4">
           <h4>Characters</h4>
           <ul className="list-group">
             {
